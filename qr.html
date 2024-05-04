@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Visor de Imágenes</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .image-wrapper {
+    max-width: 80%;
+    max-height: 80%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  img {
+    max-width: 300px; /* Ajusta el ancho máximo de la imagen */
+    height: auto; /* Mantiene la proporción de aspecto */
+    display: block;
+    margin: auto; /* Centra la imagen horizontalmente */
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <div class="image-wrapper">
+      <img src="qr.jpg" alt="Mi imagen">
+    </div>
+  </div>
+</body>
+</html>

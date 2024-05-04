@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center; /* Centrar el texto */
+  color: white; /* Color amarillo */
+}
+
+.container {
+  max-width: 800px; /* Aumento del ancho del contenedor */
+  margin: 0 auto;
+  padding: 20px;
+  background-image: url('tu_imagen_de_fondo.jpg'); /* Cambiar 'tu_imagen_de_fondo.jpg' por la ruta de tu imagen */
+  background-size: cover; /* Ajustar la imagen al tamaño del contenedor */
+  background-position: center; /* Centrar la imagen */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+textarea, input[type="text"] {
+  width: calc(100% - 22px); /* Ajuste del ancho del campo de texto para evitar desbordamiento horizontal */
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.comment {
+  margin-bottom: 20px;
+  padding: 15px; /* Aumento del espacio alrededor de cada comentario */
+  background-color: #f9f9f9;
+  border-radius: 8px; /* Mayor redondez de las esquinas */
+}
+
+.comment p {
+  margin: 0;
+}
+
+.comment .author {
+  font-weight: bold;
+}
+
+.comment .date {
+  font-size: 14px; /* Aumento del tamaño de la fecha */
+  color: #777;
+}
+
+#commentForm {
+  background-color: #f9f9f9; /* Cambio del fondo del formulario a un color sólido */
+  padding: 20px;
+  border-radius: 8px;
+}
